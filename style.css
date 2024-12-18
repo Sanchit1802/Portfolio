@@ -1,11 +1,11 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #1e1e1e;
@@ -15,7 +15,7 @@ body {
     padding: 0;
 }
 
-/* Header Styling */
+
 header {
     background-color: #111;
     color: white;
@@ -38,7 +38,7 @@ header p {
     margin-bottom: 20px;
 }
 
-/* Navigation Menu */
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -61,32 +61,14 @@ header nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Fade-up Animation */
-.fade-up {
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 1.5s forwards;
-}
 
-@keyframes fadeUp {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Main Section */
 main {
     width: 80%;
     margin: 0 auto;
     padding: 30px 0;
 }
 
-/* Section Styling */
+
 section {
     margin-bottom: 40px;
 }
@@ -98,7 +80,7 @@ section h2 {
     text-align: center;
 }
 
-/* About Section */
+
 .about {
     background-color: #333;
     padding: 30px;
@@ -111,7 +93,7 @@ section h2 {
     line-height: 1.8;
 }
 
-/* Qualifications Section */
+
 .qualifications ul {
     list-style-type: none;
     padding: 0;
@@ -132,7 +114,7 @@ section h2 {
     color: #4CAF50;
 }
 
-/* Skills Section */
+
 .skills ul {
     list-style-type: none;
     padding: 0;
@@ -153,7 +135,7 @@ section h2 {
     color: #4CAF50;
 }
 
-/* Contact Section */
+
 .contact p {
     font-size: 1.2rem;
     line-height: 1.8;
@@ -169,23 +151,8 @@ section h2 {
     text-decoration: underline;
 }
 
-/* Footer Styling (Removed from all pages as requested) */
-footer {
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-}
 
-footer p {
-    font-size: 1rem;
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
 
     header h1 {
         font-size: 2.5rem;
@@ -210,4 +177,3 @@ footer p {
     section {
         margin-bottom: 30px;
     }
-}
